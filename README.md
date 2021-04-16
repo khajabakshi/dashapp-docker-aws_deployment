@@ -99,3 +99,6 @@ We can now attempt to login to ECR:
     aws ecr get-login-password --region <YOUR_REGION> | docker login --username AWS --password-stdin <ACCOUNT_NUMBER>.dkr.ecr.<YOUR_REGION>.amazonaws.com
     
 You should hopefully receive a _Login Succeeded_ message.
+
+## Step 4d: Push the built dashboard into the AWS repository
+We start by tagging the `dockerfile` with the URI for the newly-created dashboard repository. You can find the URI inside the AWS management console by clicking on the dashboard repository.
