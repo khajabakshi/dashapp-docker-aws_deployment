@@ -1,0 +1,13 @@
+dash
+dash-bootstrap-components
+dash-core-components
+dash-dangerously-set-inner-html
+dash-daq
+dash-extensions
+dash-html-components
+dash-renderer
+dash-table
+Flask
+plotly
+numpy
+pandas
