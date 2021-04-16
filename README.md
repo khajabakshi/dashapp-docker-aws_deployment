@@ -64,3 +64,6 @@ We need to make sure our image is available in AWS. To do so, we need to perform
 * Create an `access_key` for your AWS account
 * Enable the Docker client to authenticate to the AWS registry
 * Push `dockerfile` into thedashboard repository
+
+## Step 4a: Create a repository in ECR
+Log in to the AWS Management Console. Your initial login will be on your root account. Once logged in, search for “ECR”. The Elastic Container Registry (ECR) is a fully-managed Docker container registry. A registry is a collection of repositories. Click on _Get Started_ to create a new repository. We’ll name the repository dashboard and click _Create repository_.
