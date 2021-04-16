@@ -102,3 +102,10 @@ You should hopefully receive a _Login Succeeded_ message.
 
 ## Step 4d: Push the built dashboard into the AWS repository
 We start by tagging the `dockerfile` with the URI for the newly-created dashboard repository. You can find the URI inside the AWS management console by clicking on the dashboard repository.
+
+We tag the image `dockerfile` with the above URI by running the following command in the terminal
+
+    docker tag dockerfile <ACCOUNT NUM>.dkr.ecr.<REGION>.amazonaws.com/dashboard
+    
+* `dockerfile` - Name of the docker image we built.
+* `dashboard` - Name of the repository we created in AWS ECR
