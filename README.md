@@ -1,4 +1,4 @@
-# Deploying Dash app as Docker container in AWS
+# Deploying Dash app as a Docker container in AWS
 
 # Step 0: Prerequisites:
 To follow through, you’ll need to have Docker installed on your system as well as an AWS account.
