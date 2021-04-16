@@ -21,4 +21,8 @@ There are two differences between your local system and the docker container tha
 In the case of Python Dash, the default is to have the app run on `localhost`. However, in this case, you can only access the server from your local machine. The app is typically deployed locally using the following boilerplate:
   
     if __name__ == '__main__':
-      app.run_server(debug=True)
+          app.run_server(debug=True)
+The above code won’t allow you to access the dash app from the Docker engine as the app will only be accessible to the container. We need to explicitly specify the host in `dashapp.py` to access the dashboard app from outside the container.
+
+    if __name__ == '__main__':
+          app.run_server(host='0.0.0.0', port=8050, debug=True)
