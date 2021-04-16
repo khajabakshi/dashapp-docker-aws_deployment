@@ -1,1 +1,1 @@
-Your application code will go here.
+Your webapp code will go here.
