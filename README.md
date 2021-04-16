@@ -37,3 +37,8 @@ Consequently, any relative paths that we specify in our source code will almost 
 We create a folder `DashImage` which we will populate with the raw contents of the Docker image. Ultimately, this Docker image can be used by any Docker engine to run the `dash app`. 
 
 Let us create the file structure inside `DashImage` folder as in this repo
+
+Let us look more closely at the contents of this directory:
+* `app folder`: We copy the `Dashapp` contents (`apps_folder`, `assets_folder`, `datasets_folder`, `dashapp.py`) to this folder.
+* `Dockerfile`: guide used to create an image fulfilling the Dashapp’s requirements.
+* `requirements.txt`: Only needed if your dashboard is written in Python. It lists the libraries needed by your Dashboard app to run. By specifying the required Python packages here, we make the Dockerfile more readable.
