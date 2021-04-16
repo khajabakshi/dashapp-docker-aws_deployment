@@ -94,3 +94,8 @@ _If you are accessing from INDIA, your region would be `ap-south-1`_
     aws configure set default.region <YOUR_REGION>
     aws configure set default.output json
 
+We can now attempt to login to ECR:
+
+    aws ecr get-login-password --region <YOUR_REGION> | docker login --username AWS --password-stdin <ACCOUNT_NUMBER>.dkr.ecr.<YOUR_REGION>.amazonaws.com
+    
+You should hopefully receive a _Login Succeeded_ message.
