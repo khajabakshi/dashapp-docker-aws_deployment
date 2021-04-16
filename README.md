@@ -47,3 +47,9 @@ Let us look more closely at the contents of this directory:
 Once the contents are created, we can build a docker image. In order to create the image `dockerfile`, go into the `DashImage folder` and run the following:
 
     docker build -t dockerfile .
+
+Docker goes line-by-line through the `dockerfile`, building the software layers on top of each other.
+
+To confirm some basic details about the image run 
+
+    docker images
