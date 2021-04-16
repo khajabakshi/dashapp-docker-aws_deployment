@@ -109,3 +109,7 @@ We tag the image `dockerfile` with the above URI by running the following comman
     
 * `dockerfile` - Name of the docker image we built.
 * `dashboard` - Name of the repository we created in AWS ECR
+
+We can now push the image to the repository.
+
+    docker push <ACCOUNT NUM>.dkr.ecr.<REGION>.amazonaws.com/dashboard
