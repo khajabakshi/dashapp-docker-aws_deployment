@@ -156,3 +156,9 @@ By default, the service will only allow traffic on port 80. This is a problem as
       5. Description - As you like
  
  * Click on `Save rules`.
+ * We can check if the service is running by clicking on `Clusters` in the ECS sidebar and clicking on `dockerfile`. 
+ * Once the page loads, click on the `Tasks` tab and subsequently click on the `task identifier`.
+ * The task configurations will be shown.
+ * We can see that the task is running and is accessible at the public ip address shown in the task page
+
+## Open a web browser and try accessing the public IP address with port number 8050 you should able to see your dashapp up and running.
