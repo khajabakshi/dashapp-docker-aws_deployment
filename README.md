@@ -56,3 +56,4 @@ To confirm some basic details about the image run
 You can also check that the image is correctly built by running
 
     docker run dockerfile
+From the docker machine (i.e. your computer), open a web browser at the above address and check if the dashboard is working as expected.
