@@ -18,7 +18,7 @@ There are two differences between your local system and the docker container tha
 2. The file system
 
 ### The network configuration
-In the case of Python Dash, the default is to have the app run on localhost. However, in this case, you can only access the server from your local machine. The app is typically deployed locally using the following boilerplate:
+In the case of Python Dash, the default is to have the app run on `localhost`. However, in this case, you can only access the server from your local machine. The app is typically deployed locally using the following boilerplate:
   
     if __name__ == '__main__':
       app.run_server(debug=True)
