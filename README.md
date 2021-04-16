@@ -14,5 +14,8 @@ The Command Line Interface (CLI) allows you to make calls to AWS services from y
 
 # Step 1: Prepare the Dashboard app for containerization
 There are two differences between your local system and the docker container that can potentially cause problems in deployment:
-1. the network configuration
-2. the file system
+1. The network configuration
+2. The file system
+
+### The network configuration
+In the case of Python Dash, the default is to have the app run on localhost. However, in this case, you can only access the server from your local machine. The app is typically deployed locally using the following boilerplate:
