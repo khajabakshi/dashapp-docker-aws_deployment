@@ -32,3 +32,8 @@ Modify `dashapp.py` as shown above and save. Once a docker image is built and ru
 The docker container’s file system mirrors that of a Linux system. It contains folders such as `bin`, `etc`, `mnt`, `srv` and `sys` in its root directory. If building a Python Dash app, it is common practice to store the app’s source code in the app folder in the root directory.
 Consequently, any relative paths that we specify in our source code will almost certainly not work when the app is containerized as the container will have the current path as its root directory (as the default). 
 #### The simplest solution is to change the container’s current directory to point to the location of the source code. 
+
+# Step 2: Construct a Docker image from your dashboard app
+We create a folder `DashImage` which we will populate with the raw contents of the Docker image. Ultimately, this Docker image can be used by any Docker engine to run the `dash app`. 
+
+Let us create the following file structure inside DashboardImage:
