@@ -43,5 +43,7 @@ Let us look more closely at the contents of this directory:
 * `Dockerfile`: Guide used to create an image fulfilling the Dashapp’s requirements.
 * `requirements.txt`: Only needed if your dashboard is written in Python. It lists the libraries needed by your Dashboard app to run. By specifying the required Python packages here, we make the Dockerfile more readable.
 
-## Step 2a: Write the requirements.txt file
-The `requirements.txt` file should contain all the libraries that your dashboard needs.
+# Step 3: Build your Docker image
+Once the contents are created, we can build a docker image. In order to create the image `dockerfile`, go into the `DashImage folder` and run the following:
+
+    docker build -t dockerfile .
