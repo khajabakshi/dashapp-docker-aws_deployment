@@ -57,3 +57,10 @@ You can also check that the image is correctly built by running
 
     docker run dockerfile
 From the docker machine (i.e. your computer), open a web browser at the above address and check if the dashboard is working as expected.
+
+# Step 4: Upload your Docker image to Amazon Registry
+We need to make sure our image is available in AWS. To do so, we need to perform the following steps:
+* Create a repository dashboard in ECR (the AWS Elastic Container Registry). We deliberately give the AWS repository a different name from the image we built so we can easily discriminate between the two.
+* Create an `access_key` for your AWS account
+* Enable the Docker client to authenticate to the AWS registry
+* Push `dockerfile` into thedashboard repository
