@@ -36,4 +36,4 @@ Consequently, any relative paths that we specify in our source code will almost 
 # Step 2: Construct a Docker image from your dashboard app
 We create a folder `DashImage` which we will populate with the raw contents of the Docker image. Ultimately, this Docker image can be used by any Docker engine to run the `dash app`. 
 
-Let us create the following file structure inside DashboardImage:
+Let us create the file structure inside DashImage as in this repo
