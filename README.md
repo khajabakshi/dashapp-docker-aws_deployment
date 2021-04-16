@@ -66,9 +66,9 @@ We need to make sure our image is available in AWS. To do so, we need to perform
 * Push `dockerfile` into thedashboard repository
 
 ## Step 4a: Create a repository in ECR
-Log in to the AWS Management Console. Your initial login will be on your root account. Once logged in, search for “ECR”. The Elastic Container Registry (ECR) is a fully-managed Docker container registry. A registry is a collection of repositories. Click on _*Get Started*_ to create a new repository. We’ll name the repository dashboard and click _*Create repository*_.
+Log in to the AWS Management Console. Your initial login will be on your root account. Once logged in, search for “ECR”. The Elastic Container Registry (ECR) is a fully-managed Docker container registry. A registry is a collection of repositories. Click on `Get Started` to create a new repository. We’ll name the repository dashboard and click `Create repository`.
 
 ## Step 4b: Create an access key
 We will create an access key for our root account. _It is good practice to avoid using the root account as it provides unrestricted access to your AWS resource. However, to simplify the process, we will deploy the app using the root account._
 
-To create access keys, click on _your account name_ and click _My Security Credentials_.
+To create access keys, click on `your account name` and click `My Security Credentials`.
