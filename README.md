@@ -146,4 +146,13 @@ The process will take a good few minutes. Once completed, click `View Service`.
 By default, the service will only allow traffic on port 80. This is a problem as the Docker container is only accessible on port 8050. We thus need to change the Security groups rules. 
 
 * Click on the `Security groups` identifier.
+* Once the page loads, click on `Inbound Rules` tab and then `Edit rules button`.
+* Re-populate the fields as follows.
 
+      1. Type - Custom TCP Rule
+      2. Protocol - TCP
+      3. Port Range - 8050
+      4. Source - Custom - 0.0.0.0/0
+      5. Description - As you like
+ 
+ * Click on `Save rules`.
