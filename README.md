@@ -72,3 +72,9 @@ Log in to the AWS Management Console. Your initial login will be on your root ac
 We will create an access key for our root account. _It is good practice to avoid using the root account as it provides unrestricted access to your AWS resource. However, to simplify the process, we will deploy the app using the root account._
 
 To create access keys, click on `your account name` and click `My Security Credentials`.
+
+In the new screen, open up the `Access keys (access key ID and secret access key) dropdown` and click on `Create New Access Key`. Once the key is created you will receive the following message.
+
+### Your Access keys (access key ID and secret access key) has been created successfully.
+
+Download the credentials and store it in a safe place.
