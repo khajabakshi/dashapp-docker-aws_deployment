@@ -89,6 +89,8 @@ We also need to set the region and the output format. Your region can be found f
 
 We can then run the following commands in the terminal to set the region and output format.
 
+_If you are accessing from INDIA, your region would be `ap-south-1`_
+
     aws configure set default.region <YOUR_REGION>
     aws configure set default.output json
-_If you are accessing from INDIA, your region would be `ap-south-1`_
+
