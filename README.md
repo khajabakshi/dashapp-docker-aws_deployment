@@ -27,3 +27,8 @@ The above code won’t allow you to access the dash app from the Docker engine a
     if __name__ == '__main__':
           app.run_server(host='0.0.0.0', port=8050, debug=True)
 Modify `dashapp.py` as shown above and save. Once a docker image is built and run, we can access the dashboard from a web browser at http://0.0.0.0:8050
+
+### The file system
+The docker container’s file system mirrors that of a Linux system. It contains folders such as `bin`, `etc`, `mnt`, `srv` and `sys` in its root directory. If building a Python Dash app, it is common practice to store the app’s source code in the app folder in the root directory.
+Consequently, any relative paths that we specify in our source code will almost certainly not work when the app is containerized as the container will have the current path as its root directory (as the default). 
+#### The simplest solution is to change the container’s current directory to point to the location of the source code. 
