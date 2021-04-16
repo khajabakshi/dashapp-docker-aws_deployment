@@ -161,4 +161,4 @@ By default, the service will only allow traffic on port 80. This is a problem as
  * The task configurations will be shown.
  * We can see that the task is running and is accessible at the public ip address shown in the task page
 
-## Open a web browser and try accessing the `public IP address` with port number `8050` you should able to see your `DASH-APP` up and running.
+## Open a web browser and try accessing the `public IP address` with port number `8050` you should able to see your `DASH-APP` up and running ✌
