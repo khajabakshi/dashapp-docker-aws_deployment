@@ -53,3 +53,6 @@ Docker goes line-by-line through the `dockerfile`, building the software layers 
 To confirm some basic details about the image run 
 
     docker images
+You can also check that the image is correctly built by running
+
+    docker run dockerfile
