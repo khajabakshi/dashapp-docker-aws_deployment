@@ -26,3 +26,4 @@ The above code won’t allow you to access the dash app from the Docker engine a
 
     if __name__ == '__main__':
           app.run_server(host='0.0.0.0', port=8050, debug=True)
+Modify `dashapp.py` as shown above and save. Once a docker image is built and run, we can access the dashboard from a web browser at http://0.0.0.0:8050
