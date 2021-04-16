@@ -113,3 +113,7 @@ We tag the image `dockerfile` with the above URI by running the following comman
 We can now push the image to the repository.
 
     docker push <ACCOUNT NUM>.dkr.ecr.<REGION>.amazonaws.com/dashboard
+
+The time it takes to upload the `dockerfile` image to the Registry will depend on your internet connection. Once the image is pushed, you can find the image when you click on `dashboard` in ECR.
+
+You will need the Image URI to deploy the dashboard app. The image tag `latest` is shown at the end of the URI (after the colon) and refers to the version of the dashboard.
