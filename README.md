@@ -141,3 +141,9 @@ Once in ECS, let’s click on the `Get Started` button. You will be taken to
 * You can then review the configuration and click `Create`.
 
 The process will take a good few minutes. Once completed, click `View Service`.
+
+# Step 6: Accessing the Dashboard Service
+By default, the service will only allow traffic on port 80. This is a problem as the Docker container is only accessible on port 8050. We thus need to change the Security groups rules. 
+
+* Click on the `Security groups` identifier.
+
