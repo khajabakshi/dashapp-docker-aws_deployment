@@ -127,9 +127,15 @@ Once in ECS, let’s click on the `Get Started` button. You will be taken to
 * Step 1: `Container and Task`. The container definition describes the requirements of your container as well as how the system should run your container. By clicking on the Configure button, we can configure the container to accommodate the dashboard app.
 * We only need to populate the first two fields. We name the container `dockerfile` and we populate the second field with the `Image URI`. Click on `Update`.
 * Scroll down to the `Task Definition` and click `Edit`. Here, we can specify the hardware requirements for the container. 
-* We populate these fields as below and Save.
+* We populate these fields as below and `Save`.
 
       Task Memory - 1 GB
-      Task CPU - 0.5 vCPU 
+      Task CPU - 0.5 vCPU
+ 
+* When we click on `Next`, we are taken to the `Service Definition` page.
 
+* These fields are pre-populated, so click on `Next` to go to the `Cluster definition`. 
 
+* All we need to do here is name the cluster “dockerfile” and click `Next`. 
+
+* You can then review the configuration and click `Create`.
