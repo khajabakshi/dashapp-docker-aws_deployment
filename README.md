@@ -11,3 +11,8 @@ You can register for free access to AWS services for a year at this [link.](http
 
 ## Step 0c: Install the AWS Command Line Interface
 The Command Line Interface (CLI) allows you to make calls to AWS services from your Command-Line. You can follow the instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) to install the AWS CLI.
+
+# Step 1: Prepare the Dashboard app for containerization
+There are two differences between your local system and the docker container that can potentially cause problems in deployment:
+1. the network configuration
+2. the file system
