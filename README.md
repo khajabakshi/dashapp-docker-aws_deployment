@@ -91,4 +91,4 @@ We can then run the following commands in the terminal to set the region and out
 
     aws configure set default.region <YOUR_REGION>
     aws configure set default.output json
-_If you are accessing account from INDIA, your region would be `ap-south-1`_
+_If you are accessing from INDIA, your region would be `ap-south-1`_
