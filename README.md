@@ -78,3 +78,9 @@ In the new screen, open up the `Access keys (access key ID and secret access key
 ### Your Access keys (access key ID and secret access key) has been created successfully.
 
 Download the credentials and store it in a safe place.
+
+## Step 4c: Enable the Docker client to authenticate with AWS
+Using your newly created access key, you will need to configure your `aws_access_key_id` and `aws_secret_access_key` with the following commands in the terminal:
+
+    aws configure set aws_access_key_id <YOUR_ACCESS_KEY>
+    aws configure set aws_secret_access_key <YOUR_SECRET_KEY>
