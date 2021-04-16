@@ -139,3 +139,5 @@ Once in ECS, let’s click on the `Get Started` button. You will be taken to
 * All we need to do here is name the cluster “dockerfile” and click `Next`. 
 
 * You can then review the configuration and click `Create`.
+
+The process will take a good few minutes. Once completed, click `View Service`.
