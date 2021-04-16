@@ -84,3 +84,11 @@ Using your newly created access key, you will need to configure your `aws_access
 
     aws configure set aws_access_key_id <YOUR_ACCESS_KEY>
     aws configure set aws_secret_access_key <YOUR_SECRET_KEY>
+
+We also need to set the region and the output format. Your region can be found from the AWS management console.
+
+We can then run the following commands in the terminal to set the region and output format.
+
+    aws configure set default.region <YOUR_REGION>
+    aws configure set default.output json
+_If you are accessing account from INDIA, your region would be `ap-south-1`
