@@ -1,3 +1,7 @@
+Flask
+plotly
+numpy
+pandas
 dash
 dash-bootstrap-components
 dash-core-components
@@ -7,7 +11,3 @@ dash-extensions
 dash-html-components
 dash-renderer
 dash-table
-Flask
-plotly
-numpy
-pandas
